@@ -1,0 +1,23 @@
+/* Optional hover polish */
+.card:hover {
+  transform: translateY(-6px);
+  transition: transform 0.2s ease;
+}
+
+.badge {
+  font-size: 0.9rem;
+}
+.badge.bg-primary {
+  background-color: #0d6efd;
+}
+.badge.bg-success {
+  background-color: #198754;
+}
+.badge.bg-warning {
+  background-color: #ffc107;
+  color: #212529;
+}
+.badge.bg-danger {
+  background-color: #dc3545;
+}
+
